@@ -39,10 +39,10 @@ class ShareholdersList extends LitElement {
         console.log(this.shareholders, "aea")
         return html`
             <div class="shareholders-wrapper">
-                ${this.shareholders.map(elData => 
+                ${this.shareholders.map(el => 
                     html`
                         <div class="shareholder">
-                            <shareholder-option data=${elData} name=${el.Nombre} idNum=${el.Documento} percentage=${el.Porcentaje} hasShareholders=${el.CantidadAccionitas}></shareholder-option>
+                            <shareholder-option name=${el.Nombre} idNum=${el.Documento} percentage=${el.Porcentaje} hasShareholders=${el.CantidadAccionitas}></shareholder-option>
                         </div>
                     `)
                 }

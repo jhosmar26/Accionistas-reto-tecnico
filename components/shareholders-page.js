@@ -34,7 +34,6 @@ class ShareholdersPage extends LitElement {
                 <shareholders-list .shareholders=${this.shareholders}></shareholders-list>
                 <infobox-component mainContent="Recuerda que si deseas actualizar la información de los accionistas deberás dirigirte a tu oficina o canal web."></infobox-component>
                 <button-component></button-component>
-                <shareholder-modal></shareholder-modal>
             </div>
         `;
     }

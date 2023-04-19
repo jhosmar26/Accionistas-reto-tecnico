@@ -1,5 +1,4 @@
 import "./components/shareholders-page";
-import "./components/shareholder-modal";
 import "./components/get-data";
 import "./components/steps-section";
 import "./components/shareholders-list";

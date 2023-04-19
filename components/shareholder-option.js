@@ -72,7 +72,7 @@ class ShareholderOption extends LitElement {
                     <div class="name">${ this.name }</div>
                     <div class="id-number">C.C ${ this.idNum }</div>
                     ${ this.hasShareholders
-                        ? html`<div class="has-shareholders">${this.hasShareholders} accionistas</div>`
+                        ? html`<div class="has-shareholders">${ this.hasShareholders } accionistas</div>`
                         : "" }
                     <div class="percentage">Participación: ${ this.percentage }</div>
                 </div>
